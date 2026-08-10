@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Consent Mode v2: di default nega tutto finche' l'utente non accetta dal banner -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  var consensoGiaDato = localStorage.getItem('cookieChoice') === 'accepted';
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': consensoGiaDato ? 'granted' : 'denied'
+  });
+</script>
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DK2MC1ZC4C"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-DK2MC1ZC4C');
+</script>
+  <title>Privacy & Cookie Policy — Fotottica D'Aleo</title>
+  <meta name="description" content="Informativa sulla privacy e sui cookie di Fotottica D'Aleo, studio fotografico e ottica a Paceco (TP).">
+<link rel="canonical" href="https://www.fototticadaleo.com/privacy.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fotottica D'Aleo">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Privacy & Cookie Policy — Fotottica D'Aleo">
+<meta property="og:description" content="Informativa sulla privacy e sui cookie di Fotottica D'Aleo, studio fotografico e ottica a Paceco (TP).">
+<meta property="og:url" content="https://www.fototticadaleo.com/privacy.html">
+<meta property="og:image" content="https://www.fototticadaleo.com/images/favicon_io/android-chrome-512x512.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Privacy & Cookie Policy — Fotottica D'Aleo">
+<meta name="twitter:description" content="Informativa sulla privacy e sui cookie di Fotottica D'Aleo, studio fotografico e ottica a Paceco (TP).">
+<meta name="twitter:image" content="https://www.fototticadaleo.com/images/favicon_io/android-chrome-512x512.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body style="background: #121212; color: #fff; font-family: 'Inter', sans-serif; padding: 40px 20px; line-height: 1.6;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <h1>Privacy & Cookie Policy</h1>
+    <p>Ultimo aggiornamento: Agosto 2026</p>
+
+    <h2>1. Titolare del Trattamento</h2>
+    <p>Il Titolare del trattamento dei dati è: <strong>LE FOTO DI ENZO S.A.S. DI D'ALEO FRANCESCO & C.</strong><br>
+    Sede: Via Drago di Ferro 108/112, 91027 Paceco (TP) — P.IVA 01986220810<br>
+    Email: info@fototticadaleo.com</p>
+
+    <h2>2. Tipologia di dati raccolti e finalità</h2>
+    <p>Questo sito web non raccoglie dati personali tramite moduli di registrazione o form di contatto. Gli utenti possono contattare l'azienda tramite i numeri di telefono pubblicati o tramite il collegamento diretto a WhatsApp. I dati eventualmente forniti volontariamente dall'utente verranno utilizzati esclusivamente per evadere le richieste di informazioni o preventivo.</p>
+
+    <h2>3. Cookie Policy</h2>
+    <p>Questo sito utilizza <strong>cookie tecnici</strong>, sempre attivi e necessari al funzionamento del sito (es. per ricordare la tua scelta sui cookie).</p>
+    <p>Previo tuo consenso, il sito utilizza inoltre <strong>Google Analytics 4</strong>, un servizio di analisi statistica fornito da Google Ireland Limited, per capire in forma aggregata e anonima come viene utilizzato il sito (pagine visitate, provenienza del traffico). Questo servizio imposta i cookie tecnici <code>_ga</code> e <code>_ga_*</code>, con durata fino a 2 anni, e può comportare il trasferimento di dati verso server negli Stati Uniti, nell'ambito del quadro giuridico EU-US Data Privacy Framework. Puoi consultare l'informativa privacy di Google all'indirizzo <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--gold, #c5a059);">policies.google.com/privacy</a>.</p>
+    <p>Il trattamento avviene solo se dai il consenso esplicito tramite il banner cookie mostrato al primo accesso. Puoi revocare il consenso in qualsiasi momento, con la stessa facilità con cui lo hai dato, cliccando qui sotto:</p>
+    <p><button id="revoca-consenso" style="background: var(--gold, #c5a059); color: #121212; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Rivedi le mie preferenze sui cookie</button></p>
+    <p>Puoi inoltre gestire o disabilitare i cookie direttamente dalle impostazioni del tuo browser.</p>
+
+    <h2>4. Diritti dell'utente</h2>
+    <p>In qualità di interessato, l'utente ha il diritto in qualunque momento di ottenere la conferma dell'esistenza dei propri dati, conoscerne il contenuto e l'origine, verificarne l'esattezza o chiederne l'integrazione, l'aggiornamento o la cancellazione.</p>
+    
+    <p style="margin-top: 40px;"><a href="index.html" style="color: var(--gold, #c5a059);">← Torna alla Home</a></p>
+  </div>
+  <script>
+    document.getElementById('revoca-consenso').addEventListener('click', () => {
+      localStorage.removeItem('cookieChoice');
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
